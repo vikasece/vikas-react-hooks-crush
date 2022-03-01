@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import UseScreenSize from './component/customHook/screenSize';
+// import UseCallbackComponent from './component/useCallBack/useCallbackComponent';
+// import UseMemoComponent from './component/useMemo/useMemoComponent';
+// import UseContextComponent from './component/useContext/useContextComponent';
+// import UseRefComponent from './component/useRefComponent';
+// import StateTutorial from './component/stateTutorial';
+// import UseEffectComponent from './component/useEffectComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {/* <StateTutorial /> UseState */}
+      {/* <UseEffectComponent />  Use Effect*/}
+      {/* <UseRefComponent />  use Ref Hook */}
+      {/* <UseContextComponent /> Use Context Hook */}
+      {/* <UseMemoComponent />  useMemo hook */}
+      {/* <UseCallbackComponent />  Use Callback hook */}
+      <UseScreenSize />
     </div>
   );
 }
